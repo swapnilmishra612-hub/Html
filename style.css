@@ -1,0 +1,49 @@
+.parent {
+    display: flex;
+
+    .ele1 {
+        margin: 30px;
+        height: 420px;
+        width: 310px;
+        border: 0.5px solid lightgray;
+        box-shadow: 6px 6px 5px lightgray;
+
+        img {
+            width: 310px;
+            height: 203px;
+        }
+
+        .subtext1 {
+            width: 300px;
+            text-align: justify;
+            padding: 4px;
+        }
+    }
+
+
+}
+
+.horAlignText {
+    .horizontalCard {
+        margin: 30px;
+        height: 300px;
+        width: 1010px;
+        border: 0.5px solid lightgray;
+        box-shadow: 6px 6px 5px lightgray;
+        display: flex;
+
+        img {
+            width: 310px;
+            height: 300px;
+        }
+
+        .subtext2 {
+            width: 300px;
+            text-align: justify;
+            padding: 4px;
+            margin: 25px;
+        }
+
+    }
+
+}
